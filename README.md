@@ -6,15 +6,12 @@ A major aspect of the role is making data available for analysis by Data Scienti
 
 To help data scientists get started with their work as quickly as possible, you will also get familiar with the data and share some very basic insights about the dataset.
 
-The dataset is provided to you in the form of a CSV file which can be found in this repository.
+Please note, that anything you build as part of this assignment is entirely owned by you in perpetuity.
 
-A variable dictionary is provided with definitions for each variable.
 
-## The assignment
+## The Assignment
 
 Please approach both parts of the exercise as if you are working in a real production environment. Do not hesitate to ask any questions about the exercise, and please document any assumptions and decisions you make, and any shortcuts you take (for example, due to time constraints) in the process.
-
-Anything that you build as part of this assignment is entirely owned by you in perpetuity.
 
 Please share the code, and documents you create or are going to present as part of this project in some public place (GitHub, Gitlab, Google Drive, BitBucket, etc… are all acceptable)
 
@@ -22,7 +19,12 @@ We might store/archive your solution and use it internally for discussion and ev
 
 ### Part 1 - Data Ingestion
 
-The first part of this exercise requires you to build a PoC for a data ingestion system to make  incoming CSV data easy to use / query by our Data Scientists. You have the freedom to choose how you go about building the PoC but here are a few guidelines:
+The first part of this exercise requires you to build a PoC for a data ingestion system to make incoming CSV data easy to use / query by our Data Scientists. You can find the data in this repository:
+
+* `sample_data.csv` - The dataset is provided to you in the form of a CSV file which can be found in this repository.
+* `data_dictionary.xls` - A variable dictionary is provided with definitions for each variable.
+
+You have the freedom to choose how you go about building the PoC but here are a few guidelines:
 
 * You should expect to receive files with data (assume the same format) so your solution should be able to ingest them on a regular basis (e.g. every hour or day).
 * The data should be stored in a central place and accessible/readable by multiple data scientists (even in parallel).
