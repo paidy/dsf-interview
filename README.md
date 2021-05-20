@@ -24,9 +24,9 @@ We might store/archive your solution and use it internally for discussion and ev
 
 The first part of this exercise requires you to build a PoC for a data ingestion system to make  incoming CSV data easy to use / query by our Data Scientists. You have the freedom to choose how you go about building the PoC but here are a few guidelines:
 
-You should expect to receive files with data (assume the same format) so your solution should be able to ingest them on a regular basis (e.g. every hour or day).
-The data should be stored in a central place and accessible/readable by multiple data scientists (even in parallel).
-It is up to you to choose the underlying data storage/compute engine/database you use, but the data should also be accessible via SQL, Python and/or R.
+* You should expect to receive files with data (assume the same format) so your solution should be able to ingest them on a regular basis (e.g. every hour or day).
+* The data should be stored in a central place and accessible/readable by multiple data scientists (even in parallel).
+* It is up to you to choose the underlying data storage/compute engine/database you use, but the data should also be accessible via SQL, Python and/or R.
 
 ### Part 2 - Understanding the Data
 
@@ -36,12 +36,10 @@ For the 2nd part of this exercise we’d like for you to give a short presentati
 
 A few guidelines for this part:
 
-Assume that the data scientists are completely unfamiliar with the new data and haven’t heard of it before
-
-Please take this as far as you’d like, but note that you are not expected to train a Machine Learning model or come up with a credit policy.
-You can use whatever tools you prefer for this.
-
-Beautiful visualizations are great but descriptive summary tables are also great.
-Your exploration of the data does not have to be strictly about credit risk or even finance. If you find something interesting, we’d like to know about it.
+* Assume that the data scientists are completely unfamiliar with the new data and haven’t heard of it before
+* Please take this as far as you’d like, but note that you are not expected to train a Machine Learning model or come up with a credit policy.
+* You can use whatever tools you prefer for this.
+* Beautiful visualizations are great but descriptive summary tables are also great.
+* Your exploration of the data does not have to be strictly about credit risk or even finance. If you find something interesting, we’d like to know about it.
 
 
