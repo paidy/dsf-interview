@@ -21,8 +21,8 @@ We might store/archive your solution and use it internally for discussion and ev
 
 The first part of this exercise requires you to build a PoC for a data ingestion system to make incoming CSV data easy to use / query by our Data Scientists. You can find the data in this repository:
 
-* [data_dictionary.md](/master/data_dictionary.md) - A variable dictionary is provided with definitions for each variable.
-* [sample_data.csv](/master/sample_data.csv) - The dataset is provided to you in the form of a CSV file which can be found in this repository.
+* [data_dictionary.md](data_dictionary.md) - A variable dictionary is provided with definitions for each variable.
+* [sample_data.csv](sample_data.csv) - The dataset is provided to you in the form of a CSV file which can be found in this repository.
 
 You have the freedom to choose how you go about building the PoC but here are a few guidelines:
 
