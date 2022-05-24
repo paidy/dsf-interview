@@ -2,7 +2,7 @@
 
 We understand that your time is valuable and want to thank you for working on this exercise.
 
-A major aspect of the role is making data available for analysis by data scientists and analysts. In this exercise you will be provided a credit risk dataset and work to make it available for your others to analyze.
+A major aspect of the role is making data available for analysis by data scientists and analysts. In this exercise you will be provided a credit risk dataset and work to make it available for others to analyze.
 
 To help data scientists get started with their work as quickly as possible, you will also get familiar with the data and share some very basic insights about the dataset.
 
