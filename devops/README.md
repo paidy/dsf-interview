@@ -4,33 +4,30 @@ We understand that your time is valuable and want to thank you for working on th
 
 A major aspect of the role is to design and implement the next generation of infrastructure and
 CI/CD for data science at Paidy.
-In this exercise you will be provided a dummy Python file, that is assumed to contain some
-shared functionality, and work to make its documentation available for others to read.
+In this exercise you will be working to make the documentation for our internal Python package, PaidySuperAI, publicly available so that it's easy for our data scientists to review it while building the next generation ML models.
 
-Please note, that anything you build as part of this assignment is entirely owned by you in
-perpetuity.
+Please note, that anything you build as part of this assignment is entirely owned by you in perpetuity. 
+
+We might store/archive your solution and use it internally for discussion and evaluation.
 
 ## The Assignment
 
 For the source Python files in the subfolder `src/`, on any change within the source files,
-the build pipeline (can be CircleCI, bitbucket pipelines, etc.) shall:
+the build pipeline (can be CircleCI, GitHub Actions, BitBucket pipelines, etc.) shall:
 
-1. Generate browsable documentation for it (preferably using pydoc or Sphinx)
-2. Containerize it and upload it to AWS ECR
+1. Generate browsable documentation for PaidySuperAI (preferably using pydoc or Sphinx)
+2. Containerize the documentation and upload it to AWS ECR
 3. Deploy it on AWS and make it publicly accessible / browsable
-4. However, block any access to the documentation that is outside the IP range `60.125.0.0/16`,
-   `<paidy-office-ip-range>` and `<jacobs-ip-range>`.
+
+Please see the requirements below for additional restrictions.
 
 ## Requirements
 
-Please approach the exercise as if you are working in a real production environment.
-Do not hesitate to ask any questions about the exercise, and please document and explain any
-assumptions and decisions you make, and any shortcuts you take (for example, due to time
-constraints) in the process.
+Please keep the following things in mind:
 
-Please share the code, and documents you create or are going to present as part of this project in
-some public place (GitHub, Gitlab, BitBucket, etc… are all acceptable).
-
-Please use AWS, terraform and python where applicable.
-
-We might store/archive your solution and use it internally for discussion and evaluation.
+* Approach the exercise as if you are working in a real production environment.
+* Document and explain any assumptions and decisions you make, and any shortcuts you take (for example, due to time constraints) in the process.
+* Use AWS, Terraform, and Python where applicable.
+* The documentation must be containerized.
+* Since PaidySuperAI is an internal package we want to limit access to the documentation, blocking all IPs outside the range `60.125.0.0/16`, `<paidy-office-ip-range>` and `<jacobs-ip-range>`.
+* Share the code, and documents you create or are going to present as part of this project in some public place (GitHub, Gitlab, BitBucket, etc… are all acceptable).```
