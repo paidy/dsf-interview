@@ -6,5 +6,5 @@ Welcome! This repository contains take-home exercises as part of interviews for 
 
 This repository contains take-home exercises for multiple positions so make sure to pick the correct briefing. You'll find the relevant briefing and accompanying materials in the labelled directories below:
 
-* [Data Engineering Exercise](dse/README.md) - For Data Engineering and Data Science Engineering positions
-* [DevOps Exercise](devops/README.md) - For DevOps positions
+* [Data Engineering Exercise](dse/) - For Data Engineering and Data Science Engineering positions
+* [DevOps Exercise](devops/) - For DevOps positions
