@@ -4,9 +4,12 @@ We understand that your time is valuable and want to thank you for working on th
 
 A major aspect of the role is to design and implement the next generation of infrastructure and
 CI/CD for data science at Paidy.
-In this exercise you will be working to make the documentation for our internal Python package, PaidySuperAI, publicly available so that it's easy for our data scientists to review it while building the next generation ML models.
+In this exercise you will be working to make the documentation for our internal Python package,
+PaidySuperAI, publicly available so that it's easy for our data scientists to review it while
+building the next generation ML models.
 
-Please note, that anything you build as part of this assignment is entirely owned by you in perpetuity. 
+Please note, that anything you build as part of this assignment is entirely owned by you in
+perpetuity.
 
 We might store/archive your solution and use it internally for discussion and evaluation.
 
@@ -31,6 +34,6 @@ Please keep the following things in mind:
 * Use AWS, Terraform, and Python where applicable.
 * The documentation must be containerized.
 * Since PaidySuperAI is an internal package we want to limit access to the documentation, blocking
-  all IPs outside the range `60.125.0.0/16`, `152.165.0.0/16` and `<jacobs-ip-range>`.
+  all IPs outside the range `60.125.0.0/16` and `152.165.0.0/16`.
 * Share the code, and documents you create or are going to present as part of this project in some
   public place (GitHub, Gitlab, BitBucket, etc… are all acceptable).```
