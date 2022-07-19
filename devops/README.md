@@ -35,5 +35,6 @@ Please keep the following things in mind:
 * The documentation must be containerized.
 * Since PaidySuperAI is an internal package we want to limit access to the documentation, blocking
   all IPs outside the range `60.125.0.0/16` and `152.165.0.0/16`.
-* Share the code, and documents you create or are going to present as part of this project in some
-  public place (GitHub, Gitlab, BitBucket, etc… are all acceptable).
+* Share the code, and documents you create or are going to present as part of this project with your
+  interviewers. Version control solutions like GitHub, Gitlab, BitBucket, etc… are all
+  acceptable). Please restrict public access to your submission.
