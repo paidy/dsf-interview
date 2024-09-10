@@ -11,7 +11,7 @@ Please do not share the exercise nor your solution or any details about it with 
 
 ## Task
 
-- Our marketing team wants to be able to select random samples of consumer accounts that fulfill certain conditions (age, location, status) for various email marketing campaigns.
+- Our marketing team wants to build samples of consumer accounts based on a variety of conditions (age, location, status, etc) for e-mail marketing campaigns.
 - For this, we need to provide a `consumers` data table that reflects the current state and details of each consumer account.
 - Create an ETL job in Scala/Spark that loads data from an event-based source and updates the `consumers` table accordingly.
 - We've provided you with some basic boilerplate and the expected target schama in `src/main/scala/LoadConsumers.scala` to get you started.
