@@ -23,7 +23,7 @@ Please do not share the exercise nor your solution or any details about it with 
   - These arguments are passed as datetime-strings formatted as `yyyy-mm-dd hh:mm:ss`
   - The second argument defining the end of the interval is optional and defaults to the current time.
 - The task description is vague on purpose. Make your own best guesses and assumptions, but document them.
-- We don't expect you to provide a perfect and complete production ready solution. It's fine to take shortcuts, but you need to document them properly:
+- Please make sure to document any assumptions, limitations, and future TODOs.
   - Document TODOs properly with concrete steps/requirements.
   - Document assumptions.
   - Document limitations.
