@@ -11,8 +11,8 @@ Please do not share the exercise nor your solution or any details about it with 
 
 ## Task
 
-- Our marketing team wants to be able to select random samples of consumers that fulfill certain conditions (age, location, status) for various email marketing campaigns.
-- For this, we need to provide a `consumers` data table that reflects the current state and details of each consumer.
+- Our marketing team wants to build samples of consumer accounts based on a variety of conditions (age, location, status, etc) for e-mail marketing campaigns.
+- For this, we need to provide a `consumers` data table that reflects the current state and details of each consumer account.
 - Create an ETL job in Scala/Spark that loads data from an event-based source and updates the `consumers` table accordingly.
 - We've provided you with some basic boilerplate and the expected target schama in `src/main/scala/LoadConsumers.scala` to get you started.
 - You'll find some example test data in `test/resources/consumer_events/`.
@@ -23,8 +23,8 @@ Please do not share the exercise nor your solution or any details about it with 
   - These arguments are passed as datetime-strings formatted as `yyyy-mm-dd hh:mm:ss`
   - The second argument defining the end of the interval is optional and defaults to the current time.
 - The task description is vague on purpose. Make your own best guesses and assumptions, but document them.
-- We expect you to spend, at most, 4 hours on this exercise, once you've reached this limit:
-  - Document TODOs properly.
+- Please make sure to document any assumptions, limitations, and future TODOs.
+  - Document TODOs properly with concrete steps/requirements.
   - Document assumptions.
   - Document limitations.
 
