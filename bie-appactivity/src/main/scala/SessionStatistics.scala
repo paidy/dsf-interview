@@ -32,7 +32,6 @@ object SessionStatistics {
     if (!spark.catalog.tableExists(TargetTableName)) {
       spark.createDataFrame(spark.sparkContext.emptyRDD[Row], DataType.fromDDL(TargetTableSchema).asInstanceOf[StructType])
         .write.partitionBy("session_end_year")
-        .format("delta") // using Delta is optional
         .saveAsTable(TargetTableName)
     }
 
@@ -94,10 +93,6 @@ object SessionStatistics {
 
   private def createSparkSession(): SparkSession = {
     val builder = SparkSession.builder
-
-    // Delta specific configuration
-    builder.config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
-    builder.config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
 
     builder.enableHiveSupport()
     builder.master("local[4]")

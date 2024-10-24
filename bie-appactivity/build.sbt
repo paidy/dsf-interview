@@ -7,9 +7,7 @@ lazy val `dar-interview-consumers` = (project in file("."))
 idePackagePrefix := Some("com.paidy.dar.interview")
 
 val sparkVersion = "3.5.1"
-val deltaLakeVersion = "3.1.0"
 ThisBuild / libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion
 ThisBuild / libraryDependencies += "org.apache.spark" %% "spark-hive" % sparkVersion
-ThisBuild / libraryDependencies += "io.delta" %% "delta-spark" % deltaLakeVersion
 
 ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.19" % Test
