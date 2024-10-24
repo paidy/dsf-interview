@@ -14,13 +14,13 @@ Please note:
 
 Spendy is a leading Buy Now, Pay Later service in Japan. Shoppers on many of Japan's leading e-commerce merchants and marketplaces have the option to use Spendy at checkout by logging in with just their email and phone number, and if approved, they can buy the requested basket of items right now, then get a bill the following calendar month that they can pay by cash settlement at convenience stores or bank transfer.
 
-Like many parts of e-commerce, Spendy is occasionally a victim of different types of fraud that costs Spendy money and – depending on the type of fraud – negatively effects the experience of using Spendy as a shopper or merchant. In the past few yesrs, Spendy fraud team detected or customers reported various fraud MOs such as phishing, account take over (ATO) or first party abuse.
+Like many parts of e-commerce, Spendy is occasionally a victim of different types of fraud that costs Spendy money and – depending on the type of fraud – negatively effects the experience of using Spendy as a shopper or merchant. In the past few years, Spendy fraud team detected or customers reported various fraud MOs such as phishing, account take over (ATO) or first party abuse.
 
 Spendy tries to stay on top of stopping fraud partially by identifying patterns in customer behavior and transaction data through internally designed and built monitoring system that trigger alerts which got sent to the operation team for manual review, sometimes leading to disabling Spendy accounts, and changing the decision made by Spendy's risk engine.
 
 Some examples of these:
-* The monitoring system lead Spendy agents to a group of abusers. After in-depth analysis, risk engine decision could be changed for a small segment of customers while not affecting other good customers too much.
-* The monitoring system shows sign of ATO. The agents would suspend the potentially affected accounts, and the risk managers would discuss if a temporary protection against ATO would need to be put in.
+* The customer monitoring system alerts Spendy's fraud team to a group of suspected criminals looking to defraud Spendy. After in-depth analysis, new rules can be developed to reject loans of suspected fraudulent customers while not affecting genuine customers.
+* The monitoring system shows sign of a customer's account being taken over by a bad actor. The fraud team may move to suspend the potentially affected account, while analysis is performed to understand if any actions can be taken to lock down accounts in future before they are broken into.
 
 One area which data is particularly hard to work with is Spendy's app activity data. In Spendy's app, users can pay bills, check their balance, manage their account, and shop for new products. Spendy collects data of every login, click, and page view event in the app with metadata about which Spendy customer it's for, what device they're using, how they're connected to the internet, and more.
 
