@@ -47,7 +47,7 @@ object SessionStatistics {
 
     /*
      We will only assess that an event is the last in a session (and therefore the session has ended)
-     if the most most recent event is more than {sessionExpirationThresholdMins} mins earlier than the
+     if the most recent event is more than {sessionExpirationThresholdMins} mins earlier than the
      latest event in the mixpanel period.
       */
     val mostRecentTime = sourceDF.select(max(col("event_timestamp")).as("latest_time"))
