@@ -34,9 +34,11 @@ Spendy's fraud data scientists/operation agents know intuitively, from reviewing
 
 This app login data is an enormous table of relatively raw event log data, and so setting up individual queries (and maintaining changes to their logic) for identifying these patterns has proven challenging for the fraud data scientists.
 
-Included in this assignment is a sample ETL pipeline written with Spark for identifying how many app sessions per day a Spendy user has performed that include more than 5 minutes of shopping for new products, as that is where the fraud data scientists have left off on this problem. Also included is a sample dataset with the same schema as the large raw dataset the fraud data scientists have been querying to identify these patterns.
+Included in this assignment is a sample ETL pipeline written with Spark for identifying how many app sessions per day a Spendy user has performed that include more than 5 minutes of shopping for new products, as that is where the fraud data scientists have left off on this problem. Also included is a sample dataset with the same schema as the large raw dataset the fraud data scientists have been querying to identify these patterns. From Intellij in the SBT console `run 2023-01-01 2023-12-01` should run the example pipeline successfully and write to a target local delta table.
 
 Your job in this assignment is to propose to Spendy's data scientists changes to this ETL pipeline that can track some of the mentioned patterns as well as make it easy for you or some fraud data scientists to add additional tracking of new identified patterns from the same data source. With this solution built out, the fraud team at Spendy can more easily analyze these patterns and use the data sources for training machine learning models to predict which accounts are experiencing fraudulent activity.
+
+We prefer assignment submissions in Scala, and this is the language we are using for Spark in many ETL and ML feature engineering projects at Paidy. However, if you are already a strong developer in PySpark without Scala experience, and you think your assignment will be hindered by having to switch languages, we are also ok with submissions in PySpark.
 
 - We expect you to spend, at most, 6 hours on this exercise, once you've reached this limit:
     - Document TODOs properly.
