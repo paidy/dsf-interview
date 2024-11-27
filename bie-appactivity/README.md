@@ -49,5 +49,5 @@ We prefer assignment submissions in Scala, and this is the language we are using
 ## Submission
 
 - Push your solution to a private GitHub repository and invite the following GitHub users for read-access:
-    - jared-adler-paidy, bkkkk, BrandonMassaroPaidy, mtleeghac, Matthew-Jones-Paidy, Salim-Doost-Paidy
+    - jared-adler-paidy, bkkkk, BrandonMassaroPaidy, mtleeghac, Matthew-Jones-Paidy, Salim-Doost-Paidy, superlisohou
 - We will review your submission and schedule a call with you, where we can discuss your solution together.
