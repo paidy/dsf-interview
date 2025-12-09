@@ -40,7 +40,7 @@ Your job in this assignment is to propose to Spendy's data scientists changes to
 
 We prefer assignment submissions in Scala, and this is the language we are using for Spark in many ETL and ML feature engineering projects at Paidy. However, if you are already a strong developer in PySpark without Scala experience, and you think your assignment will be hindered by having to switch languages, we are also ok with submissions in PySpark.
 
-- We expect you to spend, at most, 6 hours on this exercise, once you've reached this limit:
+- Along with your submission please ensure you document the following:
     - Document TODOs properly.
     - Document assumptions.
     - Document limitations.
@@ -50,4 +50,5 @@ We prefer assignment submissions in Scala, and this is the language we are using
 
 - Push your solution to a private GitHub repository and invite the following GitHub users for read-access:
     - jared-adler-paidy, bkkkk, BrandonMassaroPaidy, mtleeghac, Matthew-Jones-Paidy, Salim-Doost-Paidy, superlisohou
+- Reach out to our recruiting team or your recruiter to inform them of your submission. 
 - We will review your submission and schedule a call with you, where we can discuss your solution together.
